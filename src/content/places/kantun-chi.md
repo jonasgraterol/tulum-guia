@@ -9,5 +9,5 @@ hours: "9:00 AM - 5:00 PM"
 highlight: "Ecoparque con 4 cenotes, senderos y tours guiados"
 highlightEn: "Eco-park with 4 cenotes, trails, and guided tours"
 order: 9
-image: "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=800&q=80&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1493508994801-b87b8970d035?w=800&q=80&auto=format&fit=crop"
 ---

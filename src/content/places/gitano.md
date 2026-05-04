@@ -9,5 +9,5 @@ hours: "Noche"
 highlight: "Cocteleria artesanal y ambiente bohemio"
 highlightEn: "Craft cocktails and bohemian vibes"
 order: 2
-image: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1683914791867-20c3fa8734fe?w=800&q=80&auto=format&fit=crop"
 ---
