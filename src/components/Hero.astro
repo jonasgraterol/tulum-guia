@@ -11,11 +11,16 @@ const { locale } = Astro.props;
 const t = getTranslations(locale);
 ---
 
-<section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-jungle via-jungle/90 to-cenote/80">
-  <!-- Decorative elements -->
-  <div class="absolute inset-0 opacity-10">
-    <div class="absolute top-20 left-10 w-64 h-64 rounded-full bg-cenote blur-3xl"></div>
-    <div class="absolute bottom-20 right-10 w-96 h-96 rounded-full bg-honey blur-3xl"></div>
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <!-- Background image -->
+  <div class="absolute inset-0">
+    <img
+      src="https://images.unsplash.com/photo-1552083974-186346ab2359?w=1920&q=80&auto=format&fit=crop"
+      alt=""
+      class="w-full h-full object-cover"
+      fetchpriority="high"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-jungle/70 via-jungle/50 to-jungle/80"></div>
   </div>
 
   <!-- Language toggle -->

@@ -9,4 +9,5 @@ hours: "9:00 AM - 4:00 PM"
 highlight: "Laguna turquesa con cenote profundo"
 highlightEn: "Turquoise lagoon with a deep cenote"
 order: 1
+image: "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800&q=80&auto=format&fit=crop"
 ---

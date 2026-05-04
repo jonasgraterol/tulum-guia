@@ -11,4 +11,5 @@ highlightEn: "Complete jungle experience"
 features: ["4 cenotes", "Kayak", "Tirolinas", "Caminatas", "Cultura maya", "Restaurante"]
 featuresEn: ["4 cenotes", "Kayak", "Ziplines", "Hiking", "Mayan culture", "Restaurant"]
 order: 4
+image: "https://images.unsplash.com/photo-1596786232430-570bff5f3b83?w=800&q=80&auto=format&fit=crop"
 ---

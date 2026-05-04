@@ -16,6 +16,7 @@ const places = defineCollection({
     features: z.array(z.string()).optional(),
     featuresEn: z.array(z.string()).optional(),
     order: z.number(),
+    image: z.string().optional(),
   }),
 });
 

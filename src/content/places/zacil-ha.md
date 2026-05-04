@@ -9,4 +9,5 @@ hours: "9:00 AM - 5:00 PM"
 highlight: "Ambiente familiar con trampolin y areas de descanso"
 highlightEn: "Family-friendly with trampoline and rest areas"
 order: 5
+image: "https://images.unsplash.com/photo-1504730655501-24c39bddf2a4?w=800&q=80&auto=format&fit=crop"
 ---

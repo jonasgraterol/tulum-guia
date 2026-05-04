@@ -15,9 +15,10 @@ interface Props {
   features?: string[];
   featuresEn?: string[];
   accentColor: string;
+  image?: string;
 }
 
-const { locale, name, nameEn, emoji, distance, price, hours, highlight, highlightEn, features, featuresEn, accentColor } = Astro.props;
+const { locale, name, nameEn, emoji, distance, price, hours, highlight, highlightEn, features, featuresEn, accentColor, image } = Astro.props;
 const t = getTranslations(locale);
 
 const displayName = locale === 'en' ? nameEn : name;
@@ -25,41 +26,59 @@ const displayHighlight = locale === 'en' ? highlightEn : highlight;
 const displayFeatures = locale === 'en' ? featuresEn : features;
 ---
 
-<article class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow border border-sand/50 flex flex-col">
-  <!-- Header -->
-  <div class="flex items-start gap-3 mb-4">
-    <span class="text-2xl flex-shrink-0">{emoji}</span>
-    <h3 class="font-heading text-xl font-bold text-bark leading-tight">{displayName}</h3>
-  </div>
-
-  <!-- Description -->
-  <p class="text-bark/70 text-sm mb-4 flex-grow">{displayHighlight}</p>
-
-  <!-- Features -->
-  {displayFeatures && displayFeatures.length > 0 && (
-    <ul class="mb-4 space-y-1">
-      {displayFeatures.map((feature) => (
-        <li class="text-xs text-bark/60 flex items-center gap-2">
-          <span class="w-1 h-1 rounded-full flex-shrink-0" style={`background-color: ${accentColor}`}></span>
-          {feature}
-        </li>
-      ))}
-    </ul>
+<article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-sand/50 flex flex-col">
+  <!-- Image -->
+  {image && (
+    <div class="relative h-40 overflow-hidden">
+      <img
+        src={image}
+        alt={displayName}
+        class="w-full h-full object-cover"
+        loading="lazy"
+        decoding="async"
+      />
+      <div class="absolute top-3 left-3 bg-white/90 backdrop-blur-sm rounded-full px-2.5 py-1 text-sm">
+        {emoji}
+      </div>
+    </div>
   )}
 
-  <!-- Meta -->
-  <div class="border-t border-sand pt-4 mt-auto space-y-2">
-    <div class="flex items-center gap-2 text-xs text-bark/60">
-      <span>📍</span>
-      <span>{distance}</span>
+  <div class="p-5 flex flex-col flex-grow">
+    <!-- Header -->
+    <div class="flex items-start gap-3 mb-3">
+      {!image && <span class="text-2xl flex-shrink-0">{emoji}</span>}
+      <h3 class="font-heading text-lg font-bold text-bark leading-tight">{displayName}</h3>
     </div>
-    <div class="flex items-center gap-2 text-xs text-bark/60">
-      <span>💰</span>
-      <span>{price}</span>
-    </div>
-    <div class="flex items-center gap-2 text-xs text-bark/60">
-      <span>🕐</span>
-      <span>{hours}</span>
+
+    <!-- Description -->
+    <p class="text-bark/70 text-sm mb-3 flex-grow">{displayHighlight}</p>
+
+    <!-- Features -->
+    {displayFeatures && displayFeatures.length > 0 && (
+      <ul class="mb-3 space-y-1">
+        {displayFeatures.map((feature) => (
+          <li class="text-xs text-bark/60 flex items-center gap-2">
+            <span class="w-1 h-1 rounded-full flex-shrink-0" style={`background-color: ${accentColor}`}></span>
+            {feature}
+          </li>
+        ))}
+      </ul>
+    )}
+
+    <!-- Meta -->
+    <div class="border-t border-sand pt-3 mt-auto space-y-1.5">
+      <div class="flex items-center gap-2 text-xs text-bark/60">
+        <span>📍</span>
+        <span>{distance}</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs text-bark/60">
+        <span>💰</span>
+        <span>{price}</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs text-bark/60">
+        <span>🕐</span>
+        <span>{hours}</span>
+      </div>
     </div>
   </div>
 </article>

@@ -9,4 +9,5 @@ hours: "Noche"
 highlight: "Fiestas en la playa con DJs internacionales"
 highlightEn: "Beach parties with international DJs"
 order: 1
+image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80&auto=format&fit=crop"
 ---

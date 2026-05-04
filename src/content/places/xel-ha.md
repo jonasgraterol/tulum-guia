@@ -9,4 +9,5 @@ hours: "8:30 AM - 6:00 PM"
 highlight: "Parque acuatico natural todo incluido"
 highlightEn: "All-inclusive natural water park"
 order: 2
+image: "https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=800&q=80&auto=format&fit=crop"
 ---

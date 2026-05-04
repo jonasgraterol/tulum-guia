@@ -9,4 +9,5 @@ hours: "8:00 AM - 5:00 PM"
 highlight: "Sistema de cuevas impresionante para snorkel y buceo"
 highlightEn: "Impressive cave system for snorkeling and diving"
 order: 2
+image: "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?w=800&q=80&auto=format&fit=crop"
 ---
