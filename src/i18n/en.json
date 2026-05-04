@@ -1,0 +1,51 @@
+{
+  "site": {
+    "title": "Tulum Guide - Sargassum Season",
+    "description": "Your personal guide to enjoying Tulum when sargassum hits the beaches"
+  },
+  "hero": {
+    "title": "Tulum Guide",
+    "subtitle": "Amazing alternatives for when sargassum visits the beaches"
+  },
+  "host": {
+    "greeting": "Hey! Welcome to Tulum",
+    "intro": "During some months of the year, sargassum can affect the beaches. But Tulum has SO MANY amazing alternatives: cenotes, lagoons, ruins, and nightlife. This guide has my personal recommendations so you can make the most of your stay.",
+    "note": "Prices are approximate and may vary by season. I recommend carrying cash."
+  },
+  "sections": {
+    "cenotes": "Cenotes",
+    "cenotes_desc": "Crystal-clear natural pools, perfect when the sea has sargassum. Most open 8:00 AM to 5:00 PM.",
+    "lagunas": "Lagoons",
+    "lagunas_desc": "Calm waters with no sargassum, perfect for a relaxing day.",
+    "ruinas": "Mayan Ruins",
+    "ruinas_desc": "History and spectacular Caribbean views.",
+    "experiencias": "Unique Experiences",
+    "experiencias_desc": "Something different to explore.",
+    "parques": "Parks (Xcaret Group)",
+    "parques_desc": "Adventure and nature parks with all-inclusive options.",
+    "nightlife": "Nightlife",
+    "nightlife_desc": "Restaurants, parties, and the best vibes in Tulum."
+  },
+  "card": {
+    "distance": "Distance",
+    "price": "Price",
+    "hours": "Hours"
+  },
+  "tips": {
+    "title": "Key Tips",
+    "items": [
+      "During sargassum season, cenotes and lagoons are your best bet",
+      "Go early (8-10 AM) to avoid crowds",
+      "Carry cash (many places don't accept cards)",
+      "Use biodegradable sunscreen",
+      "Rent a car, bicycle, or scooter to get around"
+    ],
+    "icons": ["🌊", "⏰", "💵", "🧴", "🚗"]
+  },
+  "footer": {
+    "text": "Made with love from Aldea Zama, Tulum"
+  },
+  "nav": {
+    "language": "ES"
+  }
+}

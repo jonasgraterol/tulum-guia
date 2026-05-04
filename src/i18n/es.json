@@ -1,0 +1,51 @@
+{
+  "site": {
+    "title": "Guia Tulum - Temporada de Sargazo",
+    "description": "Tu guia personal para disfrutar Tulum cuando hay sargazo en las playas"
+  },
+  "hero": {
+    "title": "Guia Tulum",
+    "subtitle": "Alternativas increibles para cuando el sargazo visita las playas"
+  },
+  "host": {
+    "greeting": "Hola! Bienvenido a Tulum",
+    "intro": "Durante algunos meses del ano, el sargazo puede afectar las playas. Pero Tulum tiene MUCHAS alternativas increibles: cenotes, lagunas, ruinas y vida nocturna. Esta guia tiene mis recomendaciones personales para que disfrutes al maximo tu estancia.",
+    "note": "Los precios son aproximados y pueden variar segun temporada. Te recomiendo llevar efectivo."
+  },
+  "sections": {
+    "cenotes": "Cenotes",
+    "cenotes_desc": "Piscinas naturales de agua cristalina, ideales cuando el mar tiene sargazo. La mayoria abre de 8:00 AM a 5:00 PM.",
+    "lagunas": "Lagunas",
+    "lagunas_desc": "Aguas tranquilas sin sargazo, perfectas para un dia relajado.",
+    "ruinas": "Ruinas Mayas",
+    "ruinas_desc": "Historia y vistas espectaculares del Caribe.",
+    "experiencias": "Experiencias Diferentes",
+    "experiencias_desc": "Algo fuera de lo comun para explorar.",
+    "parques": "Parques (Grupo Xcaret)",
+    "parques_desc": "Parques de aventura y naturaleza con todo incluido.",
+    "nightlife": "Vida Nocturna",
+    "nightlife_desc": "Restaurantes, fiestas y el mejor ambiente de Tulum."
+  },
+  "card": {
+    "distance": "Distancia",
+    "price": "Precio",
+    "hours": "Horario"
+  },
+  "tips": {
+    "title": "Consejos Clave",
+    "items": [
+      "En temporada de sargazo, cenotes y lagunas son la mejor opcion",
+      "Ir temprano (8-10 AM) para evitar multitudes",
+      "Llevar efectivo (muchos lugares no aceptan tarjeta)",
+      "Usar bloqueador biodegradable",
+      "Rentar coche, bicicleta o scooter para moverte"
+    ],
+    "icons": ["🌊", "⏰", "💵", "🧴", "🚗"]
+  },
+  "footer": {
+    "text": "Hecho con amor desde Aldea Zama, Tulum"
+  },
+  "nav": {
+    "language": "EN"
+  }
+}
