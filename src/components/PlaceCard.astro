@@ -1,0 +1,65 @@
+---
+import type { Locale } from '../i18n';
+import { getTranslations } from '../i18n';
+
+interface Props {
+  locale: Locale;
+  name: string;
+  nameEn: string;
+  emoji: string;
+  distance: string;
+  price: string;
+  hours: string;
+  highlight: string;
+  highlightEn: string;
+  features?: string[];
+  featuresEn?: string[];
+  accentColor: string;
+}
+
+const { locale, name, nameEn, emoji, distance, price, hours, highlight, highlightEn, features, featuresEn, accentColor } = Astro.props;
+const t = getTranslations(locale);
+
+const displayName = locale === 'en' ? nameEn : name;
+const displayHighlight = locale === 'en' ? highlightEn : highlight;
+const displayFeatures = locale === 'en' ? featuresEn : features;
+---
+
+<article class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow border border-sand/50 flex flex-col">
+  <!-- Header -->
+  <div class="flex items-start gap-3 mb-4">
+    <span class="text-2xl flex-shrink-0">{emoji}</span>
+    <h3 class="font-heading text-xl font-bold text-bark leading-tight">{displayName}</h3>
+  </div>
+
+  <!-- Description -->
+  <p class="text-bark/70 text-sm mb-4 flex-grow">{displayHighlight}</p>
+
+  <!-- Features -->
+  {displayFeatures && displayFeatures.length > 0 && (
+    <ul class="mb-4 space-y-1">
+      {displayFeatures.map((feature) => (
+        <li class="text-xs text-bark/60 flex items-center gap-2">
+          <span class="w-1 h-1 rounded-full flex-shrink-0" style={`background-color: ${accentColor}`}></span>
+          {feature}
+        </li>
+      ))}
+    </ul>
+  )}
+
+  <!-- Meta -->
+  <div class="border-t border-sand pt-4 mt-auto space-y-2">
+    <div class="flex items-center gap-2 text-xs text-bark/60">
+      <span>📍</span>
+      <span>{distance}</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-bark/60">
+      <span>💰</span>
+      <span>{price}</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-bark/60">
+      <span>🕐</span>
+      <span>{hours}</span>
+    </div>
+  </div>
+</article>

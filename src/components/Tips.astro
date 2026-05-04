@@ -1,0 +1,29 @@
+---
+import type { Locale } from '../i18n';
+import { getTranslations } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getTranslations(locale);
+---
+
+<section id="tips" class="py-16 md:py-20 px-6 bg-jungle/5">
+  <div class="max-w-3xl mx-auto">
+    <div class="text-center mb-10">
+      <h2 class="font-heading text-3xl md:text-4xl font-bold text-bark">
+        ✅ {t.tips.title}
+      </h2>
+    </div>
+    <div class="space-y-4">
+      {t.tips.items.map((tip, i) => (
+        <div class="flex items-start gap-4 bg-white rounded-xl px-5 py-4 shadow-sm">
+          <span class="text-2xl flex-shrink-0">{t.tips.icons[i]}</span>
+          <p class="text-bark/80 text-base">{tip}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,52 @@
+---
+import LanguageToggle from './LanguageToggle.astro';
+import type { Locale } from '../i18n';
+import { getTranslations } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getTranslations(locale);
+---
+
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-jungle via-jungle/90 to-cenote/80">
+  <!-- Decorative elements -->
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute top-20 left-10 w-64 h-64 rounded-full bg-cenote blur-3xl"></div>
+    <div class="absolute bottom-20 right-10 w-96 h-96 rounded-full bg-honey blur-3xl"></div>
+  </div>
+
+  <!-- Language toggle -->
+  <div class="absolute top-6 right-6 z-10">
+    <LanguageToggle locale={locale} />
+  </div>
+
+  <!-- Content -->
+  <div class="relative z-10 text-center px-6 max-w-3xl">
+    <p class="text-cenote/80 text-lg mb-4 font-body tracking-wide uppercase">
+      📍 Aldea Zama, Tulum
+    </p>
+    <h1 class="font-heading text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+      {t.hero.title}
+    </h1>
+    <p class="text-white/80 text-xl md:text-2xl font-light max-w-xl mx-auto mb-10">
+      {t.hero.subtitle}
+    </p>
+    <a
+      href="#intro"
+      class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white px-6 py-3 rounded-full hover:bg-white/20 transition-all"
+    >
+      <span>{locale === 'es' ? 'Explorar' : 'Explore'}</span>
+      <span class="text-xl">↓</span>
+    </a>
+  </div>
+
+  <!-- Bottom wave decoration -->
+  <div class="absolute bottom-0 left-0 right-0">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full">
+      <path d="M0,80 C360,120 720,40 1080,80 C1260,100 1380,90 1440,80 L1440,120 L0,120 Z" fill="#F5F0E8"/>
+    </svg>
+  </div>
+</section>

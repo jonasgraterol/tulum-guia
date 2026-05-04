@@ -1,0 +1,26 @@
+---
+import type { Locale } from '../i18n';
+import { getTranslations } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getTranslations(locale);
+---
+
+<section id="intro" class="py-16 md:py-24 px-6">
+  <div class="max-w-2xl mx-auto text-center">
+    <h2 class="font-heading text-3xl md:text-4xl font-bold text-jungle mb-6">
+      {t.host.greeting} 🌿
+    </h2>
+    <p class="text-lg text-bark/80 leading-relaxed mb-6">
+      {t.host.intro}
+    </p>
+    <div class="inline-flex items-start gap-3 bg-honey/10 border border-honey/30 rounded-xl px-5 py-4 text-left">
+      <span class="text-xl flex-shrink-0 mt-0.5">💡</span>
+      <p class="text-sm text-bark/70">{t.host.note}</p>
+    </div>
+  </div>
+</section>

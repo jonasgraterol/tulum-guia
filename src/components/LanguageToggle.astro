@@ -1,0 +1,21 @@
+---
+import type { Locale } from '../i18n';
+import { getTranslations } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getTranslations(locale);
+const targetLocale = locale === 'es' ? 'en' : 'es';
+const targetPath = `/${targetLocale}/`;
+---
+
+<a
+  href={targetPath}
+  class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white/20 transition-all"
+>
+  <span class="text-base">🌐</span>
+  <span>{t.nav.language}</span>
+</a>
