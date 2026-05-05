@@ -9,5 +9,5 @@ hours: "8:00 AM - 5:00 PM"
 highlight: "Sistema de cuevas impresionante para snorkel y buceo"
 highlightEn: "Impressive cave system for snorkeling and diving"
 order: 2
-image: "https://images.unsplash.com/photo-1522093243371-296c79a66df4?w=800&q=80&auto=format&fit=crop"
+image: "/images/places/dos-ojos.jpeg"
 ---

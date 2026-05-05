@@ -9,5 +9,5 @@ hours: "9:00 AM - 5:00 PM"
 highlight: "Cenote tipo cueva con formaciones espectaculares"
 highlightEn: "Cave-type cenote with spectacular formations"
 order: 3
-image: "https://images.unsplash.com/photo-1719941463990-bbc52886f678?w=800&q=80&auto=format&fit=crop"
+image: "/images/places/taak-bi-ha.jpg"
 ---

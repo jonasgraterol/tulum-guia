@@ -11,5 +11,5 @@ highlightEn: "Complete jungle experience"
 features: ["4 cenotes", "Kayak", "Tirolinas", "Caminatas", "Cultura maya", "Restaurante"]
 featuresEn: ["4 cenotes", "Kayak", "Ziplines", "Hiking", "Mayan culture", "Restaurant"]
 order: 4
-image: "https://images.unsplash.com/photo-1774977408230-c750e084c862?w=800&q=80&auto=format&fit=crop"
+image: "/images/places/parque-tankah.jpg"
 ---

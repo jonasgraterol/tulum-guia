@@ -9,5 +9,5 @@ hours: "Noche"
 highlight: "Club exclusivo con fiestas tematicas"
 highlightEn: "Exclusive club with themed parties"
 order: 3
-image: "https://images.unsplash.com/photo-1713965591727-8bde8b3da24a?w=800&q=80&auto=format&fit=crop"
+image: "/images/places/bonbonniere.jpeg"
 ---

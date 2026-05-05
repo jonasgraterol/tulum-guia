@@ -11,5 +11,4 @@ highlightEn: "Complete experience with kayak and recreational areas"
 features: ["Kayak incluido", "Mesas y sillas", "Canchas deportivas", "Puedes llevar comida", "Restaurante y asadores"]
 featuresEn: ["Kayak included", "Tables and chairs", "Sports courts", "You can bring food", "Restaurant and grills"]
 order: 3
-image: "https://images.unsplash.com/photo-1774977408230-c750e084c862?w=800&q=80&auto=format&fit=crop"
 ---

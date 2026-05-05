@@ -11,5 +11,5 @@ highlightEn: "Mayan ruins on cliffs overlooking the Caribbean Sea"
 features: ["Ruinas mayas", "Acantilados frente al mar Caribe", "Vistas espectaculares"]
 featuresEn: ["Mayan ruins", "Cliffs overlooking the Caribbean", "Spectacular views"]
 order: 1
-image: "https://images.unsplash.com/photo-1628283771335-4b85ecd39ec9?w=800&q=80&auto=format&fit=crop"
+image: "/images/places/ruinas-tulum.jpg"
 ---

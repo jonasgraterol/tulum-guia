@@ -11,5 +11,5 @@ highlightEn: "Cenote + beach, natural pool-like cove"
 features: ["Cenote + playa", "Caleta natural tipo piscina", "Generalmente SIN sargazo", "Ideal para nadar tranquilo"]
 featuresEn: ["Cenote + beach", "Natural pool-like cove", "Usually NO sargassum", "Perfect for a calm swim"]
 order: 6
-image: "https://images.unsplash.com/photo-1581710862235-eb6e05d8783f?w=800&q=80&auto=format&fit=crop"
+image: "/images/places/casa-cenote.jpg"
 ---

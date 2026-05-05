@@ -9,5 +9,5 @@ hours: "8:00 AM - 4:00 PM"
 highlight: "Recorrido en bicicleta entre la selva"
 highlightEn: "Bicycle tour through the jungle"
 order: 2
-image: "https://images.unsplash.com/photo-1673196838310-ca599fe1f487?w=800&q=80&auto=format&fit=crop"
+image: "/images/places/ruinas-coba.jpg"
 ---
