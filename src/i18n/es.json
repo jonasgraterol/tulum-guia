@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "Guía Tulum - Temporada de Sargazo",
-    "description": "Tu guía personal para disfrutar Tulum cuando hay sargazo en las playas"
+    "title": "Zama Towers 205 - Guía Tulum",
+    "description": "Tu guía personal para disfrutar Tulum: actividades, playas, restaurantes y más"
   },
   "hero": {
     "title": "Zama Towers 205",
-    "subtitle": "Tu guía para disfrutar Tulum en temporada de sargazo"
+    "subtitle": "Tu guía completa para disfrutar Tulum"
   },
   "host": {
     "greeting": "Hola! Bienvenido a Tulum",
@@ -24,7 +24,13 @@
     "parques": "Parques de Aventura",
     "parques_desc": "Aventura y naturaleza en la Riviera Maya.",
     "nightlife": "Vida Nocturna",
-    "nightlife_desc": "Restaurantes, fiestas y el mejor ambiente de Tulum."
+    "nightlife_desc": "Fiestas y el mejor ambiente de Tulum.",
+    "restaurantes": "Restaurantes en Aldea Zamá",
+    "restaurantes_desc": "Nuestras recomendaciones favoritas cerca del condominio.",
+    "bares": "Bar Recomendado",
+    "bares_desc": "Para disfrutar cócteles en un ambiente especial.",
+    "locales": "Recomendaciones Locales",
+    "locales_desc": "En el centro de Tulum, opciones auténticas y accesibles."
   },
   "card": {
     "distance": "Distancia",

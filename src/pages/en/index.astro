@@ -6,6 +6,7 @@ import HostIntro from '../../components/HostIntro.astro';
 import SectionBlock from '../../components/SectionBlock.astro';
 import PlaceCard from '../../components/PlaceCard.astro';
 import Tips from '../../components/Tips.astro';
+import JaguarGuide from '../../components/JaguarGuide.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n';
 
@@ -21,6 +22,9 @@ const categories = [
   { id: 'experiencias', color: '#6DB56D' },
   { id: 'parques', color: '#E87F5F' },
   { id: 'nightlife', color: '#7B5EA7' },
+  { id: 'restaurantes', color: '#E87F5F' },
+  { id: 'bares', color: '#7B5EA7' },
+  { id: 'locales', color: '#D4A853' },
 ] as const;
 ---
 
@@ -28,7 +32,44 @@ const categories = [
   <Hero locale={locale} />
   <HostIntro locale={locale} />
 
-  {categories.map(({ id, color }) => {
+  {categories.slice(0, 6).map(({ id, color }) => {
+    const places = allPlaces
+      .filter((p) => p.data.category === id)
+      .sort((a, b) => a.data.order - b.data.order);
+
+    if (places.length === 0) return null;
+
+    return (
+      <SectionBlock
+        id={id}
+        title={t.sections[id]}
+        description={t.sections[`${id}_desc`]}
+        accentColor={color}
+      >
+        {places.map((place) => (
+          <PlaceCard
+            locale={locale}
+            name={place.data.name}
+            nameEn={place.data.nameEn}
+            emoji={place.data.emoji}
+            distance={place.data.distance}
+            price={place.data.price}
+            hours={place.data.hours}
+            highlight={place.data.highlight}
+            highlightEn={place.data.highlightEn}
+            features={place.data.features}
+            featuresEn={place.data.featuresEn}
+            accentColor={color}
+            image={place.data.image}
+          />
+        ))}
+      </SectionBlock>
+    );
+  })}
+
+  <JaguarGuide locale={locale} />
+
+  {categories.slice(6).map(({ id, color }) => {
     const places = allPlaces
       .filter((p) => p.data.category === id)
       .sort((a, b) => a.data.order - b.data.order);

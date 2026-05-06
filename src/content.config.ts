@@ -6,7 +6,7 @@ const places = defineCollection({
   schema: z.object({
     name: z.string(),
     nameEn: z.string(),
-    category: z.enum(['cenotes', 'lagunas', 'ruinas', 'experiencias', 'parques', 'nightlife']),
+    category: z.enum(['cenotes', 'lagunas', 'ruinas', 'experiencias', 'parques', 'nightlife', 'restaurantes', 'bares', 'locales']),
     emoji: z.string(),
     distance: z.string(),
     price: z.string(),

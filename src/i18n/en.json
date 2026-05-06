@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "Tulum Guide - Sargassum Season",
-    "description": "Your personal guide to enjoying Tulum when sargassum hits the beaches"
+    "title": "Zama Towers 205 - Tulum Guide",
+    "description": "Your personal guide to enjoying Tulum: activities, beaches, restaurants and more"
   },
   "hero": {
     "title": "Zama Towers 205",
-    "subtitle": "Your guide to enjoying Tulum during sargassum season"
+    "subtitle": "Your complete guide to enjoying Tulum"
   },
   "host": {
     "greeting": "Hey! Welcome to Tulum",
@@ -24,7 +24,13 @@
     "parques": "Adventure Parks",
     "parques_desc": "Adventure and nature in the Riviera Maya.",
     "nightlife": "Nightlife",
-    "nightlife_desc": "Restaurants, parties, and the best vibes in Tulum."
+    "nightlife_desc": "Parties and the best vibes in Tulum.",
+    "restaurantes": "Restaurants in Aldea Zamá",
+    "restaurantes_desc": "Our favorite picks near the condo.",
+    "bares": "Recommended Bar",
+    "bares_desc": "For cocktails in a special atmosphere.",
+    "locales": "Local Picks",
+    "locales_desc": "In downtown Tulum, authentic and affordable options."
   },
   "card": {
     "distance": "Distance",
