@@ -10,7 +10,7 @@
   "host": {
     "greeting": "Hola! Bienvenido a Tulum",
     "intro": "Durante algunos meses del año, el sargazo puede afectar las playas. Pero Tulum tiene MUCHAS alternativas increíbles: cenotes, lagunas, ruinas y vida nocturna. Esta guía tiene mis recomendaciones personales para que disfrutes al máximo tu estancia.",
-    "note": "Los precios son aproximados y pueden variar según temporada. Te recomiendo llevar efectivo."
+    "note": "Los precios son aproximados y pueden variar según temporada."
   },
   "sections": {
     "cenotes": "Cenotes",
@@ -42,11 +42,10 @@
     "items": [
       "En temporada de sargazo, cenotes y lagunas son la mejor opción",
       "Ir temprano (8-10 AM) para evitar multitudes",
-      "Llevar efectivo (muchos lugares no aceptan tarjeta)",
       "Usar bloqueador biodegradable",
       "Rentar coche, bicicleta o scooter para moverte"
     ],
-    "icons": ["🌊", "⏰", "💵", "🧴", "🚗"]
+    "icons": ["🌊", "⏰", "🧴", "🚗"]
   },
   "footer": {
     "text": "Hecho con amor desde Aldea Zama, Tulum"
