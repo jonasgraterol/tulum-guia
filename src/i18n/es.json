@@ -1,28 +1,28 @@
 {
   "site": {
-    "title": "Guia Tulum - Temporada de Sargazo",
-    "description": "Tu guia personal para disfrutar Tulum cuando hay sargazo en las playas"
+    "title": "Guía Tulum - Temporada de Sargazo",
+    "description": "Tu guía personal para disfrutar Tulum cuando hay sargazo en las playas"
   },
   "hero": {
     "title": "Zama Towers 205",
-    "subtitle": "Tu guia para disfrutar Tulum en temporada de sargazo"
+    "subtitle": "Tu guía para disfrutar Tulum en temporada de sargazo"
   },
   "host": {
     "greeting": "Hola! Bienvenido a Tulum",
-    "intro": "Durante algunos meses del ano, el sargazo puede afectar las playas. Pero Tulum tiene MUCHAS alternativas increibles: cenotes, lagunas, ruinas y vida nocturna. Esta guia tiene mis recomendaciones personales para que disfrutes al maximo tu estancia.",
-    "note": "Los precios son aproximados y pueden variar segun temporada. Te recomiendo llevar efectivo."
+    "intro": "Durante algunos meses del año, el sargazo puede afectar las playas. Pero Tulum tiene MUCHAS alternativas increíbles: cenotes, lagunas, ruinas y vida nocturna. Esta guía tiene mis recomendaciones personales para que disfrutes al máximo tu estancia.",
+    "note": "Los precios son aproximados y pueden variar según temporada. Te recomiendo llevar efectivo."
   },
   "sections": {
     "cenotes": "Cenotes",
-    "cenotes_desc": "Piscinas naturales de agua cristalina, ideales cuando el mar tiene sargazo. La mayoria abre de 8:00 AM a 5:00 PM.",
+    "cenotes_desc": "Piscinas naturales de agua cristalina, ideales cuando el mar tiene sargazo. La mayoría abre de 8:00 AM a 5:00 PM.",
     "lagunas": "Lagunas",
     "lagunas_desc": "Aguas tranquilas sin sargazo, perfectas para un dia relajado.",
     "ruinas": "Ruinas Mayas",
     "ruinas_desc": "Historia y vistas espectaculares del Caribe.",
     "experiencias": "Experiencias Diferentes",
-    "experiencias_desc": "Algo fuera de lo comun para explorar.",
-    "parques": "Parques (Grupo Xcaret)",
-    "parques_desc": "Parques de aventura y naturaleza con todo incluido.",
+    "experiencias_desc": "Algo fuera de lo común para explorar.",
+    "parques": "Parques de Aventura",
+    "parques_desc": "Aventura y naturaleza en la Riviera Maya.",
     "nightlife": "Vida Nocturna",
     "nightlife_desc": "Restaurantes, fiestas y el mejor ambiente de Tulum."
   },
@@ -34,7 +34,7 @@
   "tips": {
     "title": "Consejos Clave",
     "items": [
-      "En temporada de sargazo, cenotes y lagunas son la mejor opcion",
+      "En temporada de sargazo, cenotes y lagunas son la mejor opción",
       "Ir temprano (8-10 AM) para evitar multitudes",
       "Llevar efectivo (muchos lugares no aceptan tarjeta)",
       "Usar bloqueador biodegradable",
