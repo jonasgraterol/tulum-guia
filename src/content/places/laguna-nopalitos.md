@@ -11,4 +11,5 @@ highlightEn: "Complete experience with kayak and recreational areas"
 features: ["Kayak incluido", "Mesas y sillas", "Canchas deportivas", "Puedes llevar comida", "Restaurante y asadores"]
 featuresEn: ["Kayak included", "Tables and chairs", "Sports courts", "You can bring food", "Restaurant and grills"]
 order: 3
+image: "/images/places/laguna-nopalitos.jpeg"
 ---

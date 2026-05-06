@@ -1,6 +1,6 @@
 ---
-name: "Casa Cenote (Caleta Tankah)"
-nameEn: "Casa Cenote (Tankah Cove)"
+name: "Caleta Tankah"
+nameEn: "Tankah Cove"
 category: "cenotes"
 emoji: "💙"
 distance: "15 min / 10 km"
