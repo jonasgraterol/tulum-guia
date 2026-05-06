@@ -4,9 +4,16 @@ interface Props {
   title: string;
   description: string;
   accentColor: string;
+  count?: number;
 }
 
-const { id, title, description, accentColor } = Astro.props;
+const { id, title, description, accentColor, count = 3 } = Astro.props;
+
+const gridClass = count === 1
+  ? 'grid grid-cols-1 gap-6 max-w-sm mx-auto'
+  : count === 2
+    ? 'grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto'
+    : 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6';
 ---
 
 <section id={id} class="py-16 md:py-20 px-6">
@@ -20,7 +27,7 @@ const { id, title, description, accentColor } = Astro.props;
         {description}
       </p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
+    <div class={gridClass}>
       <slot />
     </div>
   </div>
