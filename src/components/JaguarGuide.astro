@@ -22,6 +22,13 @@ const isEs = locale === 'es';
     </div>
 
     <div class="space-y-6">
+      <!-- Fecha de actualización -->
+      <div class="text-center">
+        <span class="inline-flex items-center gap-2 bg-honey/10 border border-honey/30 rounded-full px-4 py-2 text-sm text-bark/70">
+          📅 {isEs ? 'Información actualizada al 04 de diciembre del 2025' : 'Information updated as of December 04, 2025'}
+        </span>
+      </div>
+
       <!-- Horarios y Costos -->
       <div class="bg-white rounded-2xl p-6 shadow-sm border border-sand/50">
         <h3 class="font-heading text-xl font-bold text-bark mb-4">
@@ -66,23 +73,16 @@ const isEs = locale === 'es';
         <h3 class="font-heading text-xl font-bold text-bark mb-4">
           🏖 {isEs ? 'Acceso Solo a Clubes de Playa' : 'Beach Club Access Only'}
         </h3>
-        <div class="grid md:grid-cols-2 gap-4">
-          <div class="bg-sand/50 rounded-xl p-4">
-            <p class="font-medium text-bark mb-2">{isEs ? 'Lunes a Sábado' : 'Monday to Saturday'}</p>
-            <ul class="text-sm text-bark/70 space-y-1">
-              <li>• {isEs ? 'Requiere reserva en un club de playa' : 'Reservation at a beach club required'}</li>
-              <li>• 🇲🇽 $60 MXN &nbsp;/&nbsp; 🌍 $120 MXN</li>
-              <li>• {isEs ? 'Se puede entrar en cualquier transporte' : 'Any transport allowed'}</li>
-            </ul>
-          </div>
-          <div class="bg-sand/50 rounded-xl p-4">
-            <p class="font-medium text-bark mb-2">{isEs ? 'Domingo' : 'Sunday'}</p>
-            <ul class="text-sm text-bark/70 space-y-1">
-              <li>• {isEs ? 'No se paga entrada al parque' : 'No park entrance fee'}</li>
-              <li>• {isEs ? 'Solo cuota del club' : 'Only club fee'}: $60/$120 MXN</li>
-              <li>• {isEs ? 'En Pocna Beach Club se descuenta en bebidas 🍹' : 'At Pocna Beach Club it\'s credited toward drinks 🍹'}</li>
-            </ul>
-          </div>
+        <p class="text-sm text-bark/70 mb-4">
+          {isEs ? 'Si el plan es solo ir a la playa sin comprar el acceso completo al parque:' : 'If you just want to go to the beach without buying full park access:'}
+        </p>
+        <div class="bg-sand/50 rounded-xl p-4">
+          <ul class="text-sm text-bark/70 space-y-2">
+            <li>• {isEs ? 'Se requiere reserva en un club de playa' : 'Reservation at a beach club is required'}</li>
+            <li>• {isEs ? 'Pago en caseta' : 'Gate fee'}: 🇲🇽 $60 MXN {isEs ? 'nacionales' : 'nationals'} &nbsp;/&nbsp; 🌍 $120 MXN {isEs ? 'extranjeros' : 'foreigners'}</li>
+            <li>• {isEs ? 'Se puede entrar en cualquier medio de transporte, incluso en auto' : 'You can enter by any means of transport, including by car'}</li>
+            <li>• {isEs ? 'El auto se puede estacionar directamente en el club de playa elegido' : 'You can park your car directly at the chosen beach club'}</li>
+          </ul>
         </div>
       </div>
 
