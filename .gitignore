@@ -20,3 +20,9 @@ pnpm-debug.log*
 
 # macOS
 .DS_Store
+
+# source files (not needed for deploy)
+Fotos/
+*.docx
+*.zip
+docs/
